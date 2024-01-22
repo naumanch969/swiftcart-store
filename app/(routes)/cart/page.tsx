@@ -16,7 +16,7 @@ const Cart = () => {
         setMounted(true)
     }, [])
 
-    if (!mounted) return <div className="flex justify-center items-center">Loading...</div>
+    if (!mounted) return null
 
     return (
         <div className='bg-white' >
