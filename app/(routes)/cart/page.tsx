@@ -9,7 +9,6 @@ import Summary from './components/summary'
 const Cart = () => {
 
     const cart = useCart()
-    console.log(cart)
     const [mounted, setMounted] = useState(false)
 
     useEffect(() => {

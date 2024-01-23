@@ -12,7 +12,7 @@ interface Props {
 const usePreviewModal = create<Props>((set) => ({
     isOpen: false,
     data: undefined,
-    onOpen: (data: Product) => set({ data: data, isOpen: false }),
+    onOpen: (data: Product) => set({ data: data, isOpen: true }),
     onClose: () => set({ isOpen: false })
 }))
 
