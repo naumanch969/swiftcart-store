@@ -3,7 +3,7 @@
 Welcome to SwiftCraft, an ecommerce website built to provide a seamless shopping experience. It is designed with simplicity and functionality in mind, ensuring a smooth and enjoyable shopping journey for users.
 
 ## Have a Look
-    Checkout our website at https://swiftcart-store.vercel.app
+    https://swiftcart-store.vercel.app
 
 ## Technologies Used
 
