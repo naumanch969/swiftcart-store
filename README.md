@@ -36,10 +36,10 @@ Follow these steps to get CodeGem up and running on your local machine:
 3. **Start the Application:**
 
   a. Navigate to client folder and run the react server by running: `npm run dev`
-  b. Navigate to server folder and run the node server by running: `node app.js`
+  b. Navigate to server folder and run the node server by running: `node app.js` 
   
-Open your browser and go to `http://localhost:3000` to explore Swiftcart.
-- 
+  Open your browser and go to `http://localhost:3000` to explore Swiftcart.
+ 
 ## Contributing
 
 Contributions to CodeGem are welcome! As an ongoing project, new features are added regularly. If you want to contribute, follow these steps:
