@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SwiftCraft Ecommerce Website
+
+Welcome to SwiftCraft, an ecommerce website built to provide a seamless shopping experience. It is designed with simplicity and functionality in mind, ensuring a smooth and enjoyable shopping journey for users.
+
+## Have a Look
+    Checkout our website at https://swiftcart-store.vercel.app
+
+## Technologies Used
+
+SwiftCraft is developed using the MERN (MongoDB, Express.js, React, Node.js) stack, ensuring a robust and efficient foundation for the website.
+
+## Features
+
+- **Payment Integration with Stripe:** Secure transactions effortlessly through the widely trusted Stripe payment gateway.
+
+- **Fully Functional Cart:** Having a seamless shopping process with a fully functional cart, enabling effortless management of the selected items.
+
+- **Filters:** Quickly locate desired products with intuitive filtering system, streamlining the search query.
+
+- **Multiple Billboards:** Discover featured products and promotions effortlessly through our visually appealing billboards.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to get CodeGem up and running on your local machine:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository:**
+   
+`git clone https://github.com/naumanch969/swiftcart-store.git`
+`cd codegem`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install Dependencies:**
+  a. Navigate to client folder and run: `npm install`
+  b. Navigate to server folder and run: `npm install`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Start the Application:**
 
-## Learn More
+  a. Navigate to client folder and run the react server by running: `npm run dev`
+  b. Navigate to server folder and run the node server by running: `node app.js`
+  
+Open your browser and go to `http://localhost:3000` to explore Swiftcart.
+- 
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions to CodeGem are welcome! As an ongoing project, new features are added regularly. If you want to contribute, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`.
+3. Make your changes and commit: `git commit -m 'Add your feature'`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Submit a pull request.
+6. Your contribution will be reviewed, and feedback may be provided. Once approved, the changes will be merged into the main branch.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Thank you for considering contributing to SwiftCraft!
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For inquiries or support, contact us at [naumanch969@gmail.com].
