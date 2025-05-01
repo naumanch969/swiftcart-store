@@ -2,6 +2,7 @@
 
 import Button from '@/components/ui/button'
 import Currency from '@/components/ui/currency'
+import { API_URL } from '@/constants'
 import useCart from '@/hooks/use-cart'
 import { Product } from '@/types'
 import axios from 'axios'
@@ -20,7 +21,7 @@ const Summary = () => {
     }, 0)
 
     const onCheckout = async () => {
-        const { data } = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/checkout`, {
+        const { data } = await axios.post(`${API_URL}/checkout`, {
             productIds: products.map(item => item.id)
         })
         window.location = data.url

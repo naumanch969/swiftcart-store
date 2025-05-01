@@ -1,6 +1,7 @@
+import { API_URL } from "@/constants";
 import { Billboard } from "@/types";
 
-const url = `${process.env.NEXT_PUBLIC_API_URL}/billboards`
+const url = `${API_URL}/billboards`
 
 const getBillboards = async (id: string): Promise<Billboard> => {
     const res = await fetch(`${url}/${id}`)
