@@ -2,6 +2,9 @@ import { Billboard as TBillboard } from '@/types'
 import React from 'react'
 
 const Billboard = ({ data }: { data: TBillboard }) => {
+
+    console.log('data', data)
+
     return (
         <div className='p-4 sm:p-6 lg:p-8 rounded-xl overflow-hidden ' >
             <div

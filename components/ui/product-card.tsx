@@ -13,10 +13,12 @@ import useCart from '@/hooks/use-cart'
 
 const ProductCard = ({ product }: { product: Product }) => {
 
+    /////////////////////////////////////////////////////////// VARIABLES ///////////////////////////////////////////////////////////////////////
     const router = useRouter()
     const cart = useCart()
     const previewModal = usePreviewModal()
 
+    /////////////////////////////////////////////////////////// FUNCTIONS ///////////////////////////////////////////////////////////////////////
     const handleClick = () => {
         router.push(`/product/${product?.id}`)
     }
@@ -31,6 +33,7 @@ const ProductCard = ({ product }: { product: Product }) => {
         cart.addItem(product)
     }
 
+    /////////////////////////////////////////////////////////// RENDER ///////////////////////////////////////////////////////////////////////
     return (
         <div onClick={handleClick} className='bg-white group cursor-pointer rounded-xl border p-3 space-y-4'  >
             {/* images and actions */}

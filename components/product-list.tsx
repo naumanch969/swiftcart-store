@@ -4,6 +4,8 @@ import NoResult from '@/components/ui/no-results'
 import ProductCard from './ui/product-card'
 
 const ProductList = ({ items, title }: { items: Product[], title: string }) => {
+
+
   return (
     <div className='space-y-4 ' >
       <h3 className="font-bold text-3xl ">{title}</h3>
