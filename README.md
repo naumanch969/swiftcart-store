@@ -2,7 +2,7 @@
 
 Welcome to **SwiftCraft**, an e-commerce platform designed to deliver a seamless and enjoyable shopping experience. With its simple yet functional design, SwiftCraft is built to make online shopping intuitive and secure.
 
-🔗 **Live Demo:** [https://swiftcart-store.vercel.app](https://swiftcart-store.vercel.app)
+🔗 **Live Demo:** [https://swiftcart.iamnauaman.com](https://swiftcart.iamnauman.com)
 
 ---
 
