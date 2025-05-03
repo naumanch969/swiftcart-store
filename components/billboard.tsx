@@ -13,7 +13,7 @@ const Billboard = ({ data }: { data: TBillboard }) => {
             >
                 <div className="h-full w-full flex flex-col justify-center items-center text-center gap-y-8">
                     <h1 className="font-bold text-3xl sm:text-5xl lg:text-6xl sm:max-w-xl max-w-xs ">
-                        {data?.label}
+                        {/* {data?.label} */}
                     </h1>
                 </div>
             </div>
