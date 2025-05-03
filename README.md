@@ -1,58 +1,79 @@
 # SwiftCraft Ecommerce Website
 
-Welcome to SwiftCraft, an ecommerce website built to provide a seamless shopping experience. It is designed with simplicity and functionality in mind, ensuring a smooth and enjoyable shopping journey for users.
+Welcome to **SwiftCraft**, an e-commerce platform designed to deliver a seamless and enjoyable shopping experience. With its simple yet functional design, SwiftCraft is built to make online shopping intuitive and secure.
 
-## Have a Look
-    https://swiftcart-store.vercel.app
+🔗 **Live Demo:** [https://swiftcart-store.vercel.app](https://swiftcart-store.vercel.app)
+
+---
 
 ## Technologies Used
 
-SwiftCraft is developed using the MERN (MongoDB, Express.js, React, Node.js) stack, ensuring a robust and efficient foundation for the website.
+SwiftCraft is developed using the **MERN** (MongoDB, Express.js, React, Node.js) stack for the frontend, ensuring a robust and efficient foundation for the website.
+
+---
 
 ## Features
 
-- **Payment Integration with Stripe:** Secure transactions effortlessly through the widely trusted Stripe payment gateway.
+- **Payment Integration with Stripe** – Secure and trusted transactions via Stripe.
+- **Fully Functional Cart** – A smooth shopping experience with a dynamic, fully-featured cart.
+- **Filters** – Quickly find desired products using a powerful filtering system.
+- **Multiple Billboards** – Showcase promotions and featured products with visually engaging billboards.
 
-- **Fully Functional Cart:** Having a seamless shopping process with a fully functional cart, enabling effortless management of the selected items.
-
-- **Filters:** Quickly locate desired products with intuitive filtering system, streamlining the search query.
-
-- **Multiple Billboards:** Discover featured products and promotions effortlessly through our visually appealing billboards.
+---
 
 ## Getting Started
 
-Follow these steps to get CodeGem up and running on your local machine:
+Follow these steps to get SwiftCraft running locally:
 
-1. **Clone the Repository:**
-   
-`git clone https://github.com/naumanch969/swiftcart-store.git`
-`cd codegem`
+### 1. Clone the Repository
 
+```bash
+git clone https://github.com/naumanch969/swiftcart-store.git
+cd swiftcart-store
+```
 
-2. **Install Dependencies:**
-  a. Navigate to client folder and run: `npm install`
-  b. Navigate to server folder and run: `npm install`
+### 2. Install Dependencies
 
-3. **Start the Application:**
+```
+bash
+npm install
+```
 
-  a. Navigate to client folder and run the react server by running: `npm run dev`
-  b. Navigate to server folder and run the node server by running: `node app.js` 
-  
-  Open your browser and go to `http://localhost:3000` to explore Swiftcart.
- 
+### 3. Set Up Environment Variables
+Create a .env file in the client directory and add the following variable:
+
+```
+bash
+NEXT_PUBLIC_API_URL=http://localhost:4000/api
+```
+
+This variable should point to the backend API, which is required for full functionality (though it's a placeholder URL for local development).
+
+### 4. Start the Application
+To run the application:
+
+```bash
+npm run dev
+```
+
+Once the server is running, open your browser and navigate to http://localhost:3000 to explore SwiftCraft.
+
 ## Contributing
+Contributions to SwiftCraft are always welcome! To get started:
 
-Contributions to CodeGem are welcome! As an ongoing project, new features are added regularly. If you want to contribute, follow these steps:
+Fork the repository.
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`.
-3. Make your changes and commit: `git commit -m 'Add your feature'`.
-4. Push to the branch: `git push origin feature/your-feature`.
-5. Submit a pull request.
-6. Your contribution will be reviewed, and feedback may be provided. Once approved, the changes will be merged into the main branch.
+Create a new branch: git checkout -b feature/your-feature.
 
-Thank you for considering contributing to SwiftCraft!
+Commit your changes: git commit -m 'Add feature'.
+
+Push to the branch: git push origin feature/your-feature.
+
+Submit a pull request for review.
+
+Once your contribution is reviewed and approved, it will be merged into the main branch.
 
 ## Contact
+For inquiries, suggestions, or support, feel free to reach out to us at naumanch969@gmail.com.
 
-For inquiries or support, contact us at [naumanch969@gmail.com].
+Thank you for using SwiftCraft! 🚀
