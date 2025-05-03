@@ -34,16 +34,14 @@ cd swiftcart-store
 
 ### 2. Install Dependencies
 
-```
-bash
+```bash
 npm install
 ```
 
 ### 3. Set Up Environment Variables
 Create a .env file in the client directory and add the following variable:
 
-```
-bash
+```bash
 NEXT_PUBLIC_API_URL=http://localhost:4000/api
 ```
 
